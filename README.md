@@ -9,4 +9,4 @@ Com objetivo de ganhar pratica em CSS, HTML E JS.
 - JAVASCRIPT: Linguagem de programação para funcionalidades interativas.
 
 ### SITE
-Segue link para acessar a calculadora criada.
+Segue link para acessar a [calculadora](https://jadizinhasl.github.io/basic-calculator/) criada.
