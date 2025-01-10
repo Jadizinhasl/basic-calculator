@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="telaResultado" id="telaResultado">0</div>
+        <!-- classe para sepacao entre tela e botoes, para melhor ajuste de estilizacao css -->
+        <div class="botes">
+        <!-- adicionando os botes operacionais da calculadora -->
+            <button class="btn btn-par" value="7">7</button>
+            <button class="btn btn-impar" value="8">8</button>
+            <button class="btn btn-par" value="9">9</button>
+            <button class="btn btn-calculo" value="/">/</button>
+            
+            <button class="btn btn-impar" value="4">4</button>
+            <button class="btn btn-par" value="5">5</button>
+            <button class="btn btn-impar" value="6">6</button>
+            <button class="btn btn-calculo" value="*">*</button>
+            
+            <button class="btn btn-par" value="1">1</button>
+            <button class="btn btn-impar" value="2">2</button>
+            <button class="btn btn-par" value="3">3</button>
+            <button class="btn btn-calculo" value="-">-</button>
+            
+            <button class="btn btn-impar" value="0">0</button>
+            <button class="btn btn-par" value=".">.</button>
+            <button class="btn btn-calculo" id="igual" value="=">=</button>
+            <button class="btn btn-calculo" value="+">+</button>
+        <!-- botes para limpar tela, apos resultado ou erro de numero digitado sem apagar tudo -->
+            <button class="btn btn-calculo" id="limpar">C</button>
+            <button class="btn btn-calculo" id="backspace">⌫</button>
+        </div>
+    </div>
+</body>
+</html>
